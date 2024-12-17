@@ -92,5 +92,5 @@ select * from Worker;
    select @DEPART as Department_Name,@p_avgSalary as Average_Salary;
    select * from Worker;
   
-  drop database Company;
+
  

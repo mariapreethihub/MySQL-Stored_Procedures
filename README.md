@@ -5,10 +5,15 @@
 
    **Syntax:**
        DELIMITER //
+       
        CREATE PROCEDURE procedure_name ([parameters])
+       
        BEGIN
+       
        SQL statements;
+       
        END //
+       
        DELIMITER ;
        
   **Different types of Procedures in MySQL:**
@@ -45,9 +50,13 @@
       
 **Benefits of Stored Procedures:**
     1.Performance: Precompiled and stored in the database.
+    
     2.Reusability: Can be reused across applications.
+    
     3.Security: Users can execute procedures without accessing underlying data directly.
+    
     4.Maintainability: Centralized business logic reduces redundancy.
+    
     5.Simplification of Complex Queries:Simplify and store complex SQL operations for reuse, reducing redundancy and error-prone queries.
 
 
